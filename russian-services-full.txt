@@ -1,0 +1,1549 @@
+prepend:
+  # ============================================
+  # ЯНДЕКС - ВСЕ СЕРВИСЫ И ПОДДОМЕНЫ
+  # ============================================
+  
+  # Основные домены Яндекса
+  - 'DOMAIN-SUFFIX,yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.net,DIRECT'
+  - 'DOMAIN-SUFFIX,ya.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.ua,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.by,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.uz,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.com.tr,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.com.ge,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.az,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.fr,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.ee,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.lt,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.lv,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.md,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.tj,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.tm,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.co.il,DIRECT'
+  
+  # CDN и статические ресурсы Яндекса
+  - 'DOMAIN-SUFFIX,yastatic.net,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.st,DIRECT'
+  - 'DOMAIN-SUFFIX,yastat.net,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex-launcher.com,DIRECT'
+  - 'DOMAIN-SUFFIX,yimg.st,DIRECT'
+  
+  # Яндекс Паспорт и авторизация
+  - 'DOMAIN-SUFFIX,passport.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,passport.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,passport-frontend.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,social.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,oauth.yandex.ru,DIRECT'
+  
+  # Яндекс Аватары и медиа
+  - 'DOMAIN-SUFFIX,avatars.yandex.net,DIRECT'
+  - 'DOMAIN-SUFFIX,avatars.mds.yandex.net,DIRECT'
+  - 'DOMAIN-SUFFIX,storage.yandexcloud.net,DIRECT'
+  
+  # Яндекс 360
+  - 'DOMAIN-SUFFIX,360.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,admin.360.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,connect.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,connect-cdn.yandex.net,DIRECT'
+  
+  # Яндекс Диск
+  - 'DOMAIN-SUFFIX,disk.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,disk.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,disk.yandex.com.tr,DIRECT'
+  - 'DOMAIN-SUFFIX,disk.yandex.ua,DIRECT'
+  - 'DOMAIN-SUFFIX,disk.yandex.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,downloader.disk.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,uploader.disk.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,webdav.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,docviewer.yandex.ru,DIRECT'
+  
+  # Яндекс Почта
+  - 'DOMAIN-SUFFIX,mail.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,mail.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,mail.yandex.ua,DIRECT'
+  - 'DOMAIN-SUFFIX,mail.yandex.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,mail.yandex.by,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex-mail.ru,DIRECT'
+  
+  # Яндекс Календарь
+  - 'DOMAIN-SUFFIX,calendar.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,calendar-frontend.yandex.ru,DIRECT'
+  
+  # Яндекс Контакты
+  - 'DOMAIN-SUFFIX,contacts.yandex.ru,DIRECT'
+  
+  # Яндекс Музыка
+  - 'DOMAIN-SUFFIX,music.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,music.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,music.yandex.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,music.yandex.by,DIRECT'
+  - 'DOMAIN-SUFFIX,music.yandex.ua,DIRECT'
+  - 'DOMAIN-SUFFIX,music-backend.yandex.net,DIRECT'
+  - 'DOMAIN-SUFFIX,radio.yandex.ru,DIRECT'
+  
+  # Яндекс Карты и Навигатор
+  - 'DOMAIN-SUFFIX,maps.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,maps.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,maps.yandex.ua,DIRECT'
+  - 'DOMAIN-SUFFIX,maps.yandex.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,traffic.maps.yandex.net,DIRECT'
+  - 'DOMAIN-SUFFIX,router.yandex.net,DIRECT'
+  - 'DOMAIN-SUFFIX,nmaps.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,api-maps.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,geocode-maps.yandex.ru,DIRECT'
+  
+  # Яндекс Такси и Го
+  - 'DOMAIN-SUFFIX,taxi.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,taxi.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,taxi.yandex.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,taxi.yandex.by,DIRECT'
+  - 'DOMAIN-SUFFIX,taxi.yandex.az,DIRECT'
+  - 'DOMAIN-SUFFIX,go.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex-taxi.ru,DIRECT'
+  
+  # Яндекс Еда
+  - 'DOMAIN-SUFFIX,eda.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,eda.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,eda.yandex.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,eda.yandex.by,DIRECT'
+  - 'DOMAIN-SUFFIX,lavka.yandex.ru,DIRECT'
+  
+  # Яндекс Маркет
+  - 'DOMAIN-SUFFIX,market.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,market.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,market.yandex.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,market.yandex.ua,DIRECT'
+  - 'DOMAIN-SUFFIX,market.yandex.by,DIRECT'
+  - 'DOMAIN-SUFFIX,m.market.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,pokupki.market.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,beru.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,sbermegamarket.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,market-delivery.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex-market.ru,DIRECT'
+  
+  # Яндекс Дзен
+  - 'DOMAIN-SUFFIX,zen.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,zen.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,dzen.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,ya-dzen.ru,DIRECT'
+  
+  # Яндекс Переводчик
+  - 'DOMAIN-SUFFIX,translate.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,translate.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,translate.yandex.net,DIRECT'
+  - 'DOMAIN-SUFFIX,translate.yandex.ua,DIRECT'
+  
+  # Яндекс Метрика и Аналитика
+  - 'DOMAIN-SUFFIX,metrika.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,metrika.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,mc.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,mc.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,mc.yandex.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,mc.yandex.by,DIRECT'
+  - 'DOMAIN-SUFFIX,mc.yandex.ua,DIRECT'
+  - 'DOMAIN-SUFFIX,appmetrica.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,appmetrica.yandex.net,DIRECT'
+  
+  # Яндекс Директ и Реклама
+  - 'DOMAIN-SUFFIX,direct.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,direct.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,an.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,adfox.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,awaps.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,ads.adfox.ru,DIRECT'
+  
+  # Яндекс Браузер
+  - 'DOMAIN-SUFFIX,browser.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,browser.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,browser.yandex.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,browser.yandex.ua,DIRECT'
+  - 'DOMAIN-SUFFIX,api.browser.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,ext.browser.yandex.ru,DIRECT'
+  
+  # Яндекс Алиса
+  - 'DOMAIN-SUFFIX,iot.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,quasar.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex-quasar.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,dialogs.yandex.net,DIRECT'
+  
+  # Яндекс Облако
+  - 'DOMAIN-SUFFIX,yandex-cloud.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,cloud.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,cloud.yandex.com,DIRECT'
+  - 'DOMAIN-SUFFIX,cloud-api.yandex.net,DIRECT'
+  - 'DOMAIN-SUFFIX,functions.yandexcloud.net,DIRECT'
+  - 'DOMAIN-SUFFIX,serverless.yandexcloud.net,DIRECT'
+  - 'DOMAIN-SUFFIX,website.yandexcloud.net,DIRECT'
+  
+  # Яндекс Вебмастер
+  - 'DOMAIN-SUFFIX,webmaster.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,webmaster.yandex.com,DIRECT'
+  
+  # Яндекс Поиск
+  - 'DOMAIN-SUFFIX,yandex.net,DIRECT'
+  - 'DOMAIN-SUFFIX,suggest.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,suggest-maps.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,export.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,xml.yandex.ru,DIRECT'
+  
+  # Яндекс Новости
+  - 'DOMAIN-SUFFIX,news.yandex.ru,DIRECT'
+  
+  # Яндекс Погода
+  - 'DOMAIN-SUFFIX,pogoda.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,weather.yandex.ru,DIRECT'
+  
+  # Яндекс Телемост
+  - 'DOMAIN-SUFFIX,telemost.yandex.ru,DIRECT'
+  
+  # Яндекс Путешествия
+  - 'DOMAIN-SUFFIX,travel.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,rasp.yandex.ru,DIRECT'
+  
+  # Яндекс Работа
+  - 'DOMAIN-SUFFIX,rabota.yandex.ru,DIRECT'
+  
+  # Яндекс Недвижимость
+  - 'DOMAIN-SUFFIX,realty.yandex.ru,DIRECT'
+  
+  # Яндекс Кью
+  - 'DOMAIN-SUFFIX,q.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.q.ru,DIRECT'
+  
+  # Яндекс Знатоки
+  - 'DOMAIN-SUFFIX,yandex.znatoki.ru,DIRECT'
+  
+  # Яндex Games
+  - 'DOMAIN-SUFFIX,games.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex-games.ru,DIRECT'
+  
+  # Яндекс Практикум
+  - 'DOMAIN-SUFFIX,practicum.yandex.ru,DIRECT'
+  
+  # Яндекс Телефония
+  - 'DOMAIN-SUFFIX,telephony.yandex.ru,DIRECT'
+  
+  # Яндекс Формы
+  - 'DOMAIN-SUFFIX,forms.yandex.ru,DIRECT'
+  
+  # Яндекс Трекер
+  - 'DOMAIN-SUFFIX,tracker.yandex.ru,DIRECT'
+  
+  # Яндекс Wiki
+  - 'DOMAIN-SUFFIX,wiki.yandex.ru,DIRECT'
+  
+  # Яндекс DataLens
+  - 'DOMAIN-SUFFIX,datalens.yandex.ru,DIRECT'
+  
+  # Яндекс Толока
+  - 'DOMAIN-SUFFIX,toloka.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,toloka.ai,DIRECT'
+  
+  # Яндекс Здоровье
+  - 'DOMAIN-SUFFIX,health.yandex.ru,DIRECT'
+  
+  # Яндекс Афиша
+  - 'DOMAIN-SUFFIX,afisha.yandex.ru,DIRECT'
+  
+  # Яндекс API
+  - 'DOMAIN-SUFFIX,api.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,api.yandex.net,DIRECT'
+  - 'DOMAIN-SUFFIX,api.passport.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,api-metrika.yandex.ru,DIRECT'
+  
+  # Яндекс для разработчиков
+  - 'DOMAIN-SUFFIX,tech.yandex.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex.dev,DIRECT'
+  
+  # GEOSITE правило для Яндекса
+  - 'GEOSITE,yandex,DIRECT'
+  
+  # ============================================
+  # VK (ВКОНТАКТЕ) - ВСЕ СЕРВИСЫ
+  # ============================================
+  
+  # Основные домены VK
+  - 'DOMAIN-SUFFIX,vk.com,DIRECT'
+  - 'DOMAIN-SUFFIX,vk.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,vk.me,DIRECT'
+  - 'DOMAIN-SUFFIX,vkontakte.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,vk-cdn.net,DIRECT'
+  - 'DOMAIN-SUFFIX,vk-portal.net,DIRECT'
+  
+  # VK CDN и контент
+  - 'DOMAIN-SUFFIX,userapi.com,DIRECT'
+  - 'DOMAIN-SUFFIX,vkuseraudio.net,DIRECT'
+  - 'DOMAIN-SUFFIX,vkuservideo.net,DIRECT'
+  - 'DOMAIN-SUFFIX,vkusercontent.com,DIRECT'
+  - 'DOMAIN-SUFFIX,vkuserlive.com,DIRECT'
+  - 'DOMAIN-SUFFIX,v0cdn.net,DIRECT'
+  - 'DOMAIN-SUFFIX,v1cdn.net,DIRECT'
+  - 'DOMAIN-SUFFIX,v2cdn.net,DIRECT'
+  - 'DOMAIN-SUFFIX,vkuseraudio.com,DIRECT'
+  
+  # VK Музыка
+  - 'DOMAIN-SUFFIX,vkmusic.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,boom.ru,DIRECT'
+  
+  # VK Видео
+  - 'DOMAIN-SUFFIX,vkvideo.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,vk.video,DIRECT'
+  
+  # VK Клипы
+  - 'DOMAIN-SUFFIX,clips.vk.com,DIRECT'
+  
+  # VK ID (авторизация)
+  - 'DOMAIN-SUFFIX,id.vk.com,DIRECT'
+  - 'DOMAIN-SUFFIX,oauth.vk.com,DIRECT'
+  - 'DOMAIN-SUFFIX,login.vk.com,DIRECT'
+  
+  # VK API
+  - 'DOMAIN-SUFFIX,api.vk.com,DIRECT'
+  - 'DOMAIN-SUFFIX,api.vk.ru,DIRECT'
+  
+  # VK Звонки
+  - 'DOMAIN-SUFFIX,calls.vk.com,DIRECT'
+  
+  # VK Мессенджер
+  - 'DOMAIN-SUFFIX,vk-messenger.com,DIRECT'
+  
+  # VK Mini Apps
+  - 'DOMAIN-SUFFIX,vk-apps.com,DIRECT'
+  - 'DOMAIN-SUFFIX,vkapps.com,DIRECT'
+  
+  # VK Реклама
+  - 'DOMAIN-SUFFIX,vk-ads.com,DIRECT'
+  - 'DOMAIN-SUFFIX,top-fwz1.mail.ru,DIRECT'
+  
+  # VK Tech
+  - 'DOMAIN-SUFFIX,vk.tech,DIRECT'
+  - 'DOMAIN-SUFFIX,vk-tech.ru,DIRECT'
+  
+  # VK Образование
+  - 'DOMAIN-SUFFIX,vk.company,DIRECT'
+  
+  # VK WorkSpace
+  - 'DOMAIN-SUFFIX,vkworkspace.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,myteam.mail.ru,DIRECT'
+  
+  # VK Маркет
+  - 'DOMAIN-SUFFIX,vkmarket.ru,DIRECT'
+  
+  # VK Платформа
+  - 'DOMAIN-SUFFIX,vkplay.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,vkplay.live,DIRECT'
+  
+  # ============================================
+  # MAIL.RU GROUP
+  # ============================================
+  
+  # Mail.ru основные домены
+  - 'DOMAIN-SUFFIX,mail.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,mail-group.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,mailru.com,DIRECT'
+  
+  # Mail.ru почта
+  - 'DOMAIN-SUFFIX,e.mail.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,touch.mail.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,go.mail.ru,DIRECT'
+  
+  # Mail.ru статика и CDN
+  - 'DOMAIN-SUFFIX,imgsmail.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,mradx.net,DIRECT'
+  - 'DOMAIN-SUFFIX,pixs.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,content-cdn.mail.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,filin.mail.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,jp.mail.ru,DIRECT'
+  
+  # Mail.ru Облако
+  - 'DOMAIN-SUFFIX,cloud.mail.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,cloud-api.mail.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,cloud-c.mail.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,cloclo-video.mail.ru,DIRECT'
+  
+  # Mail.ru Поиск
+  - 'DOMAIN-SUFFIX,go.mail.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,r.mail.ru,DIRECT'
+  
+  # Mail.ru ICQ
+  - 'DOMAIN-SUFFIX,icq.com,DIRECT'
+  - 'DOMAIN-SUFFIX,icq.net,DIRECT'
+  - 'DOMAIN-SUFFIX,agent.mail.ru,DIRECT'
+  
+  # Mail.ru Почта для домена
+  - 'DOMAIN-SUFFIX,biz.mail.ru,DIRECT'
+  
+  # Mail.ru Погода
+  - 'DOMAIN-SUFFIX,pogoda.mail.ru,DIRECT'
+  
+  # Mail.ru Новости
+  - 'DOMAIN-SUFFIX,news.mail.ru,DIRECT'
+  
+  # Mail.ru Hi-Tech
+  - 'DOMAIN-SUFFIX,hi-tech.mail.ru,DIRECT'
+  
+  # Mail.ru Леди
+  - 'DOMAIN-SUFFIX,lady.mail.ru,DIRECT'
+  
+  # Mail.ru Дети
+  - 'DOMAIN-SUFFIX,deti.mail.ru,DIRECT'
+  
+  # Mail.ru Авто
+  - 'DOMAIN-SUFFIX,auto.mail.ru,DIRECT'
+  
+  # Mail.ru Недвижимость
+  - 'DOMAIN-SUFFIX,realty.mail.ru,DIRECT'
+  
+  # Mail.ru Знакомства
+  - 'DOMAIN-SUFFIX,mamba.ru,DIRECT'
+  
+  # ============================================
+  # ОДНОКЛАССНИКИ (OK.RU)
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,ok.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,odnoklassniki.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,mycdn.me,DIRECT'
+  - 'DOMAIN-SUFFIX,connect.ok.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,api.ok.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,apiok.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,odnokl.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,ok-portal.ru,DIRECT'
+  
+  # ============================================
+  # RUTUBE
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,rutube.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,rutube.video,DIRECT'
+  - 'DOMAIN-SUFFIX,static.rutube.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,stream.rutube.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,video.rutube.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,pic.rutube.ru,DIRECT'
+  
+  # ============================================
+  # WILDBERRIES
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,wildberries.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,wbstatic.net,DIRECT'
+  - 'DOMAIN-SUFFIX,wbcontent.net,DIRECT'
+  - 'DOMAIN-SUFFIX,wbbasket.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-01.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-02.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-03.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-04.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-05.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-06.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-07.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-08.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-09.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-10.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-11.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-12.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-13.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-14.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-15.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-16.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,basket-17.wb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,wb.ru,DIRECT'
+  
+  # ============================================
+  # OZON
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,ozon.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,ozonusercontent.com,DIRECT'
+  - 'DOMAIN-SUFFIX,ozon.travel,DIRECT'
+  - 'DOMAIN-SUFFIX,cdn1.ozone.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,cdn2.ozone.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,cdn3.ozone.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,ozon.com,DIRECT'
+  - 'DOMAIN-SUFFIX,ozon.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,ozon.by,DIRECT'
+  - 'DOMAIN-SUFFIX,ozonapi.com,DIRECT'
+  - 'DOMAIN-SUFFIX,ozoncdn.ru,DIRECT'
+  
+  # ============================================
+  # AVITO
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,avito.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,avito.st,DIRECT'
+  - 'DOMAIN-SUFFIX,avitocdn.net,DIRECT'
+  - 'DOMAIN-SUFFIX,avitost.com,DIRECT'
+  - 'DOMAIN-SUFFIX,avito.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,m.avito.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,www2.avito.ru,DIRECT'
+  
+  # ============================================
+  # СБЕР (SBER)
+  # ============================================
+  
+  # Сбербанк основные домены
+  - 'DOMAIN-SUFFIX,sber.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,sberbank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,sberbank.com,DIRECT'
+  - 'DOMAIN-SUFFIX,online.sberbank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,online-sberbank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,sbi.sberbank.ru,DIRECT'
+  
+  # СберБанк Онлайн
+  - 'DOMAIN-SUFFIX,sbol.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,sberfin.ru,DIRECT'
+  
+  # Сбер ID
+  - 'DOMAIN-SUFFIX,id.sber.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,ift.sber.ru,DIRECT'
+  
+  # СберМаркет
+  - 'DOMAIN-SUFFIX,sbermarket.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,sbermegamarket.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,sbermm.ru,DIRECT'
+  
+  # СберЗвук
+  - 'DOMAIN-SUFFIX,sberzvuk.com,DIRECT'
+  - 'DOMAIN-SUFFIX,zvuk.com,DIRECT'
+  
+  # СберБокс
+  - 'DOMAIN-SUFFIX,sberbox.tv,DIRECT'
+  
+  # СберПрайм
+  - 'DOMAIN-SUFFIX,sberprime.ru,DIRECT'
+  
+  # СберЛогистика
+  - 'DOMAIN-SUFFIX,sberlogistics.ru,DIRECT'
+  
+  # Сбер Еаптека
+  - 'DOMAIN-SUFFIX,eapteka.ru,DIRECT'
+  
+  # СберМаркетинг
+  - 'DOMAIN-SUFFIX,sbermarketing.ru,DIRECT'
+  
+  # СберТех
+  - 'DOMAIN-SUFFIX,sbertech.ru,DIRECT'
+  
+  # СберДевайсы
+  - 'DOMAIN-SUFFIX,sberdevices.ru,DIRECT'
+  
+  # СберПортал
+  - 'DOMAIN-SUFFIX,portal.sberbank.ru,DIRECT'
+  
+  # СберСпасибо
+  - 'DOMAIN-SUFFIX,spasibosberbank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,spasibo.sber.ru,DIRECT'
+  
+  # Доставка Сбер
+  - 'DOMAIN-SUFFIX,dostavka.sber.ru,DIRECT'
+  
+  # Сбер Страхование
+  - 'DOMAIN-SUFFIX,sberins.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,sberinsurance.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,sberlife.ru,DIRECT'
+  
+  # Сбер Инвестиции
+  - 'DOMAIN-SUFFIX,sberinvestor.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,sberinvestments.ru,DIRECT'
+  
+  # СберКорпоративные решения
+  - 'DOMAIN-SUFFIX,sberbusiness.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,sberbank-ast.ru,DIRECT'
+  
+  # СберОблако
+  - 'DOMAIN-SUFFIX,sbercloud.ru,DIRECT'
+  
+  # СберАвтоподписка
+  - 'DOMAIN-SUFFIX,sberauto.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,drive-click.ru,DIRECT'
+  
+  # СберЗдоровье
+  - 'DOMAIN-SUFFIX,sberhealth.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,docdoc.ru,DIRECT'
+  
+  # СберБизнес
+  - 'DOMAIN-SUFFIX,sbbol.ru,DIRECT'
+  
+  # ============================================
+  # ТИНЬКОФФ (TINKOFF)
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,tinkoff.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,tinkoffbank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,tinkoff-bank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,tinkoffinsurance.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,tinkoff.com,DIRECT'
+  - 'DOMAIN-SUFFIX,tinkoff-mobile.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,tinkoffmobile.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,tcsbank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,cloudpayments.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,tinkoffjournal.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,tinkoff-journal.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,online.tinkoff.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,business.tinkoff.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,static.tinkoff.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,acdn.tinkoff.ru,DIRECT'
+  
+  # ============================================
+  # АЛЬФА-БАНК
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,alfabank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,alfa-bank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,click.alfabank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,web.alfabank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,online.alfabank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,insync.alfabank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,alfabank.com,DIRECT'
+  
+  # ============================================
+  # ВТБ БАНК
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,vtb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,vtb.com,DIRECT'
+  - 'DOMAIN-SUFFIX,vtbdirect.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,online.vtb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,my.vtb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,broker.vtb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,connect.vtb.ru,DIRECT'
+  
+  # ============================================
+  # ГАЗПРОМБАНК
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,gazprombank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,gazprom-bank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,gpb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,online.gpb.ru,DIRECT'
+  
+  # ============================================
+  # РОССЕЛЬХОЗБАНК
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,rshb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,rshb-online.ru,DIRECT'
+  
+  # ============================================
+  # ПОЧТА БАНК
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,pochtabank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,pb.online,DIRECT'
+  
+  # ============================================
+  # РАЙФФАЙЗЕНБАНК
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,raiffeisen.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,raiffeisenbank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,raiffeisen-online.ru,DIRECT'
+  
+  # ============================================
+  # РОСБАНК
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,rosbank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,rosbank.online,DIRECT'
+  
+  # ============================================
+  # ОТКРЫТИЕ БАНК
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,open.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,openbank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,open-broker.ru,DIRECT'
+  
+  # ============================================
+  # МТС БАНК
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,mtsbank.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,mts-bank.ru,DIRECT'
+  
+  # ============================================
+  # КИВИ (QIWI)
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,qiwi.com,DIRECT'
+  - 'DOMAIN-SUFFIX,qiwi.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,qiwi.me,DIRECT'
+  - 'DOMAIN-SUFFIX,qiwi.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,qiwiwallet.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,qiwi-wallet.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,rocketbank.ru,DIRECT'
+  
+  # ============================================
+  # ЮMONEY (ЯНДЕКС.ДЕНЬГИ)
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,yoomoney.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,yamoney.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,yandex-money.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,yandexmoney.ru,DIRECT'
+  
+  # ============================================
+  # ГОСУСЛУГИ
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,gosuslugi.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,esia.gosuslugi.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,pgu.gosuslugi.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,lk.gosuslugi.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,pos.gosuslugi.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,api.gosuslugi.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,gosuslugi-ru-cdn.ru,DIRECT'
+  
+  # ============================================
+  # NALOG.RU (НАЛОГОВАЯ)
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,nalog.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,nalog.gov.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,nalogru.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,lkfl2.nalog.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,lkul.nalog.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,lkip.nalog.ru,DIRECT'
+  
+  # ============================================
+  # 2GIS
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,2gis.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,2gis.com,DIRECT'
+  - 'DOMAIN-SUFFIX,2gis.kg,DIRECT'
+  - 'DOMAIN-SUFFIX,2gis.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,2gis.ae,DIRECT'
+  - 'DOMAIN-SUFFIX,2gis.cz,DIRECT'
+  - 'DOMAIN-SUFFIX,2gis.cl,DIRECT'
+  - 'DOMAIN-SUFFIX,api.2gis.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,catalog.api.2gis.ru,DIRECT'
+  
+  # ============================================
+  # KINOPOISK И OKKO
+  # ============================================
+  
+  # Кинопоиск
+  - 'DOMAIN-SUFFIX,kinopoisk.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,kp.cdn.yandex.net,DIRECT'
+  - 'DOMAIN-SUFFIX,hd.kinopoisk.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,sso.kinopoisk.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,api.ott.kinopoisk.ru,DIRECT'
+  
+  # OKKO
+  - 'DOMAIN-SUFFIX,okko.tv,DIRECT'
+  - 'DOMAIN-SUFFIX,okko-tv.ru,DIRECT'
+  
+  # ============================================
+  # IVI
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,ivi.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,ivi.tv,DIRECT'
+  - 'DOMAIN-SUFFIX,ivi-cdn.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,more.tv,DIRECT'
+  
+  # ============================================
+  # START
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,start.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,more.tv,DIRECT'
+  
+  # ============================================
+  # WINK
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,wink.rt.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,wink.ru,DIRECT'
+  
+  # ============================================
+  # PREMIER
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,premier.one,DIRECT'
+  
+  # ============================================
+  # СМОТРЁШКА
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,smotreshka.tv,DIRECT'
+  
+  # ============================================
+  # ТРЕЙЛЕР
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,trailer.ru,DIRECT'
+  
+  # ============================================
+  # ЛИТРЕС
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,litres.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,litres.me,DIRECT'
+  - 'DOMAIN-SUFFIX,litnet.com,DIRECT'
+  - 'DOMAIN-SUFFIX,mybook.ru,DIRECT'
+  
+  # ============================================
+  # BOOKMATE
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,bookmate.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,bookmate.com,DIRECT'
+  
+  # ============================================
+  # STORYTEL
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,storytel.com,DIRECT'
+  - 'DOMAIN-SUFFIX,storytel.ru,DIRECT'
+  
+  # ============================================
+  # СТРОИТЕЛЬСТВО И НЕДВИЖИМОСТЬ
+  # ============================================
+  
+  # ЦИАН
+  - 'DOMAIN-SUFFIX,cian.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,cian.com,DIRECT'
+  - 'DOMAIN-SUFFIX,cianstatic.ru,DIRECT'
+  
+  # Домклик (Сбер)
+  - 'DOMAIN-SUFFIX,domclick.ru,DIRECT'
+  
+  # Авито Недвижимость (уже в списке Авито)
+  
+  # Яндекс Недвижимость (уже в списке Яндекса)
+  
+  # ============================================
+  # РАБОТА И КАРЬЕРА
+  # ============================================
+  
+  # HeadHunter (hh.ru)
+  - 'DOMAIN-SUFFIX,hh.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,hhcdn.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,hh.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,hh.uz,DIRECT'
+  - 'DOMAIN-SUFFIX,hh.az,DIRECT'
+  - 'DOMAIN-SUFFIX,zarplata.ru,DIRECT'
+  
+  # SuperJob
+  - 'DOMAIN-SUFFIX,superjob.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,sj.ru,DIRECT'
+  
+  # Авито Работа (уже в списке Авито)
+  
+  # Зарплата.ру
+  - 'DOMAIN-SUFFIX,zarplata.ru,DIRECT'
+  
+  # Rabota.ru (Яндекс)
+  - 'DOMAIN-SUFFIX,rabota.ru,DIRECT'
+  
+  # Работа.ru
+  - 'DOMAIN-SUFFIX,job.ru,DIRECT'
+  
+  # Профи.ру
+  - 'DOMAIN-SUFFIX,profi.ru,DIRECT'
+  
+  # ============================================
+  # АВТО
+  # ============================================
+  
+  # Авто.ру (Яндекс)
+  - 'DOMAIN-SUFFIX,auto.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,autoru.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,vertis.ru,DIRECT'
+  
+  # Дром.ру
+  - 'DOMAIN-SUFFIX,drom.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,drom.com,DIRECT'
+  - 'DOMAIN-SUFFIX,baza.drom.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,auto.drom.ru,DIRECT'
+  
+  # Авито Авто (уже в списке Авито)
+  
+  # Авто Ру
+  - 'DOMAIN-SUFFIX,cars.mail.ru,DIRECT'
+  
+  # Авто Фокус
+  - 'DOMAIN-SUFFIX,autofocus.ru,DIRECT'
+  
+  # ============================================
+  # МТС (МОБИЛЬНЫЙ ОПЕРАТОР)
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,mts.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,mts.by,DIRECT'
+  - 'DOMAIN-SUFFIX,mts-link.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,ssl.mts.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,login.mts.ru,DIRECT'
+  
+  # МТС ТВ
+  - 'DOMAIN-SUFFIX,mts-tv.ru,DIRECT'
+  
+  # МТС Музыка
+  - 'DOMAIN-SUFFIX,mts-music.ru,DIRECT'
+  
+  # МТС Cashback
+  - 'DOMAIN-SUFFIX,cashback.mts.ru,DIRECT'
+  
+  # ============================================
+  # МЕГАФОН
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,megafon.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,megafon.tj,DIRECT'
+  - 'DOMAIN-SUFFIX,megafon.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,lk.megafon.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,login.megafon.ru,DIRECT'
+  
+  # ============================================
+  # БИЛАЙН (BEELINE)
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,beeline.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,beeline.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,beeline.uz,DIRECT'
+  - 'DOMAIN-SUFFIX,beeline.kg,DIRECT'
+  - 'DOMAIN-SUFFIX,beeline.tj,DIRECT'
+  - 'DOMAIN-SUFFIX,beeline.am,DIRECT'
+  - 'DOMAIN-SUFFIX,my.beeline.ru,DIRECT'
+  
+  # ============================================
+  # TELE2
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,tele2.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,tele2.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,lk.tele2.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,msk.tele2.ru,DIRECT'
+  
+  # ============================================
+  # YOTA
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,yota.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,my.yota.ru,DIRECT'
+  
+  # ============================================
+  # РОСТЕЛЕКОМ
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,rt.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,rostelecom.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,lk.rt.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,my.rt.ru,DIRECT'
+  
+  # ============================================
+  # ДОМ.РУ
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,domru.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,dom.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,my.domru.ru,DIRECT'
+  
+  # ============================================
+  # ОБРАЗОВАНИЕ
+  # ============================================
+  
+  # Дневник.ру
+  - 'DOMAIN-SUFFIX,dnevnik.ru,DIRECT'
+  
+  # РЭШ (Российская электронная школа)
+  - 'DOMAIN-SUFFIX,resh.edu.ru,DIRECT'
+  
+  # Учи.ру
+  - 'DOMAIN-SUFFIX,uchi.ru,DIRECT'
+  
+  # Skillbox
+  - 'DOMAIN-SUFFIX,skillbox.ru,DIRECT'
+  
+  # Нетология
+  - 'DOMAIN-SUFFIX,netology.ru,DIRECT'
+  
+  # GeekBrains
+  - 'DOMAIN-SUFFIX,geekbrains.ru,DIRECT'
+  
+  # SkillFactory
+  - 'DOMAIN-SUFFIX,skillfactory.ru,DIRECT'
+  
+  # Hexlet
+  - 'DOMAIN-SUFFIX,hexlet.io,DIRECT'
+  - 'DOMAIN-SUFFIX,hexlet.ru,DIRECT'
+  
+  # Яндекс Практикум (уже в списке Яндекса)
+  
+  # Stepik
+  - 'DOMAIN-SUFFIX,stepik.org,DIRECT'
+  - 'DOMAIN-SUFFIX,stepik.com,DIRECT'
+  
+  # SkillCup
+  - 'DOMAIN-SUFFIX,skillcup.ru,DIRECT'
+  
+  # Coursera Russia
+  - 'DOMAIN-SUFFIX,coursera.org,DIRECT'
+  
+  # ============================================
+  # НОВОСТИ И СМИ
+  # ============================================
+  
+  # РИА Новости
+  - 'DOMAIN-SUFFIX,ria.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,rian.ru,DIRECT'
+  
+  # ТАСС
+  - 'DOMAIN-SUFFIX,tass.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,tass.com,DIRECT'
+  
+  # РБК
+  - 'DOMAIN-SUFFIX,rbc.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,rbcholding.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,static.rbc.ru,DIRECT'
+  
+  # Коммерсантъ
+  - 'DOMAIN-SUFFIX,kommersant.ru,DIRECT'
+  
+  # Ведомости
+  - 'DOMAIN-SUFFIX,vedomosti.ru,DIRECT'
+  
+  # Известия
+  - 'DOMAIN-SUFFIX,iz.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,izvestia.ru,DIRECT'
+  
+  # Российская газета
+  - 'DOMAIN-SUFFIX,rg.ru,DIRECT'
+  
+  # Интерфакс
+  - 'DOMAIN-SUFFIX,interfax.ru,DIRECT'
+  
+  # Лента.ру
+  - 'DOMAIN-SUFFIX,lenta.ru,DIRECT'
+  
+  # Газета.ру
+  - 'DOMAIN-SUFFIX,gazeta.ru,DIRECT'
+  
+  # AiF (Аргументы и Факты)
+  - 'DOMAIN-SUFFIX,aif.ru,DIRECT'
+  
+  # RT (Russia Today)
+  - 'DOMAIN-SUFFIX,rt.com,DIRECT'
+  - 'DOMAIN-SUFFIX,russia-today.ru,DIRECT'
+  
+  # Sputnik
+  - 'DOMAIN-SUFFIX,sputnik.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,sputniknews.com,DIRECT'
+  
+  # Meduza
+  - 'DOMAIN-SUFFIX,meduza.io,DIRECT'
+  
+  # The Bell
+  - 'DOMAIN-SUFFIX,thebell.io,DIRECT'
+  
+  # Fontanka
+  - 'DOMAIN-SUFFIX,fontanka.ru,DIRECT'
+  
+  # Kp.ru (Комсомольская правда)
+  - 'DOMAIN-SUFFIX,kp.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,kp.md,DIRECT'
+  - 'DOMAIN-SUFFIX,kp.by,DIRECT'
+  - 'DOMAIN-SUFFIX,kp.kz,DIRECT'
+  - 'DOMAIN-SUFFIX,kp.ua,DIRECT'
+  
+  # Regnum
+  - 'DOMAIN-SUFFIX,regnum.ru,DIRECT'
+  
+  # NGS (НГС)
+  - 'DOMAIN-SUFFIX,ngs.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,ngs24.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,ngs55.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,ngs42.ru,DIRECT'
+  
+  # 59.ru (Пермь)
+  - 'DOMAIN-SUFFIX,59.ru,DIRECT'
+  
+  # E1.ru (Екатеринбург)
+  - 'DOMAIN-SUFFIX,e1.ru,DIRECT'
+  
+  # NN.ru (Нижний Новгород)
+  - 'DOMAIN-SUFFIX,nn.ru,DIRECT'
+  
+  # 74.ru (Челябинск)
+  - 'DOMAIN-SUFFIX,74.ru,DIRECT'
+  
+  # 161.ru (Ростов-на-Дону)
+  - 'DOMAIN-SUFFIX,161.ru,DIRECT'
+  
+  # Znak.com
+  - 'DOMAIN-SUFFIX,znak.com,DIRECT'
+  
+  # ============================================
+  # ИГРЫ И РАЗВЛЕЧЕНИЯ
+  # ============================================
+  
+  # VK Play (бывший Mail.ru Games)
+  - 'DOMAIN-SUFFIX,vkplay.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,vkplay.live,DIRECT'
+  - 'DOMAIN-SUFFIX,vk.com,DIRECT'
+  
+  # Warface
+  - 'DOMAIN-SUFFIX,warface.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,warface.com,DIRECT'
+  
+  # World of Tanks
+  - 'DOMAIN-SUFFIX,worldoftanks.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,wargaming.net,DIRECT'
+  
+  # Allods Online
+  - 'DOMAIN-SUFFIX,allods.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,allods.com,DIRECT'
+  
+  # Perfect World
+  - 'DOMAIN-SUFFIX,pwonline.ru,DIRECT'
+  
+  # 4game
+  - 'DOMAIN-SUFFIX,4game.ru,DIRECT'
+  
+  # Playkot
+  - 'DOMAIN-SUFFIX,playkot.com,DIRECT'
+  
+  # Game Insight
+  - 'DOMAIN-SUFFIX,game-insight.com,DIRECT'
+  
+  # Playrix
+  - 'DOMAIN-SUFFIX,playrix.com,DIRECT'
+  
+  # ZeptoLab
+  - 'DOMAIN-SUFFIX,zeptolab.com,DIRECT'
+  
+  # ============================================
+  # СОЦИАЛЬНЫЕ СЕТИ И МЕССЕНДЖЕРЫ
+  # ============================================
+  
+  # TamTam (VK)
+  - 'DOMAIN-SUFFIX,tamtam.chat,DIRECT'
+  
+  # Viber (частично российская аудитория)
+  - 'DOMAIN-SUFFIX,viber.com,DIRECT'
+  
+  # ============================================
+  # ЗДОРОВЬЕ И МЕДИЦИНА
+  # ============================================
+  
+  # DocDoc
+  - 'DOMAIN-SUFFIX,docdoc.ru,DIRECT'
+  
+  # СберЗдоровье (уже в списке Сбера)
+  
+  # Яндекс Здоровье (уже в списке Яндекса)
+  
+  # Про докторов
+  - 'DOMAIN-SUFFIX,prodoctorov.ru,DIRECT'
+  
+  # НаПоправку
+  - 'DOMAIN-SUFFIX,napopravku.ru,DIRECT'
+  
+  # ЗдравСити
+  - 'DOMAIN-SUFFIX,zdravcity.ru,DIRECT'
+  
+  # Apteka.ru
+  - 'DOMAIN-SUFFIX,apteka.ru,DIRECT'
+  
+  # Еаптека (уже в списке Сбера)
+  
+  # ЗдравГород
+  - 'DOMAIN-SUFFIX,zdravgorod.ru,DIRECT'
+  
+  # ============================================
+  # ТУРИЗМ И ПУТЕШЕСТВИЯ
+  # ============================================
+  
+  # Туту.ру
+  - 'DOMAIN-SUFFIX,tutu.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,tutu.travel,DIRECT'
+  
+  # Aviasales
+  - 'DOMAIN-SUFFIX,aviasales.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,aviasales.com,DIRECT'
+  
+  # Ozon Travel (уже в списке Озон)
+  
+  # Яндекс Путешествия (уже в списке Яндекса)
+  
+  # OneTwoTrip
+  - 'DOMAIN-SUFFIX,onetwotrip.com,DIRECT'
+  
+  # Level.Travel
+  - 'DOMAIN-SUFFIX,level.travel,DIRECT'
+  
+  # Travelata
+  - 'DOMAIN-SUFFIX,travelata.ru,DIRECT'
+  
+  # Kupibilet
+  - 'DOMAIN-SUFFIX,kupibilet.ru,DIRECT'
+  
+  # РЖД
+  - 'DOMAIN-SUFFIX,rzd.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,pass.rzd.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,ticket.rzd.ru,DIRECT'
+  
+  # Poezd.ru
+  - 'DOMAIN-SUFFIX,poezd.ru,DIRECT'
+  
+  # ============================================
+  # ДОСТАВКА ЕДЫ
+  # ============================================
+  
+  # Яндекс Еда (уже в списке Яндекса)
+  
+  # Delivery Club
+  - 'DOMAIN-SUFFIX,delivery-club.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,deliveryclub.ru,DIRECT'
+  
+  # СберМаркет (уже в списке Сбера)
+  
+  # Самокат
+  - 'DOMAIN-SUFFIX,samokat.ru,DIRECT'
+  
+  # Яндекс Лавка (уже в списке Яндекса)
+  
+  # Перекрёсток Впрок
+  - 'DOMAIN-SUFFIX,vprok.ru,DIRECT'
+  
+  # Утконос
+  - 'DOMAIN-SUFFIX,utkonos.ru,DIRECT'
+  
+  # Вкусвилл
+  - 'DOMAIN-SUFFIX,vkusvill.ru,DIRECT'
+  
+  # ============================================
+  # FASHION И ОДЕЖДА
+  # ============================================
+  
+  # Lamoda
+  - 'DOMAIN-SUFFIX,lamoda.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,lamodacdn.net,DIRECT'
+  
+  # Kupivip
+  - 'DOMAIN-SUFFIX,kupivip.ru,DIRECT'
+  
+  # Befree
+  - 'DOMAIN-SUFFIX,befree.ru,DIRECT'
+  
+  # Concept Club
+  - 'DOMAIN-SUFFIX,concept-club.ru,DIRECT'
+  
+  # Твое
+  - 'DOMAIN-SUFFIX,tvoe.ru,DIRECT'
+  
+  # Rendez-Vous
+  - 'DOMAIN-SUFFIX,rendez-vous.ru,DIRECT'
+  
+  # ============================================
+  # ТЕХНИКА И ЭЛЕКТРОНИКА
+  # ============================================
+  
+  # М.Видео
+  - 'DOMAIN-SUFFIX,mvideo.ru,DIRECT'
+  
+  # Эльдорадо
+  - 'DOMAIN-SUFFIX,eldorado.ru,DIRECT'
+  
+  # DNS
+  - 'DOMAIN-SUFFIX,dns-shop.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,dns.ru,DIRECT'
+  
+  # Ситилинк
+  - 'DOMAIN-SUFFIX,citilink.ru,DIRECT'
+  
+  # Pleer.ru
+  - 'DOMAIN-SUFFIX,pleer.ru,DIRECT'
+  
+  # Regard
+  - 'DOMAIN-SUFFIX,regard.ru,DIRECT'
+  
+  # ============================================
+  # МЕБЕЛЬ И ДОМ
+  # ============================================
+  
+  # Hoff
+  - 'DOMAIN-SUFFIX,hoff.ru,DIRECT'
+  
+  # Askona
+  - 'DOMAIN-SUFFIX,askona.ru,DIRECT'
+  
+  # Много Мебели
+  - 'DOMAIN-SUFFIX,mnogomebeli.ru,DIRECT'
+  
+  # Леруа Мерлен Россия
+  - 'DOMAIN-SUFFIX,leroymerlin.ru,DIRECT'
+  
+  # Castorama
+  - 'DOMAIN-SUFFIX,castorama.ru,DIRECT'
+  
+  # OBI
+  - 'DOMAIN-SUFFIX,obi.ru,DIRECT'
+  
+  # Петрович
+  - 'DOMAIN-SUFFIX,petrovich.ru,DIRECT'
+  
+  # ============================================
+  # КРАСОТА И КОСМЕТИКА
+  # ============================================
+  
+  # Лэтуаль
+  - 'DOMAIN-SUFFIX,letu.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,letoile.ru,DIRECT'
+  
+  # Золотое Яблоко
+  - 'DOMAIN-SUFFIX,goldapple.ru,DIRECT'
+  
+  # Рив Гош
+  - 'DOMAIN-SUFFIX,rivegauche.ru,DIRECT'
+  
+  # Подружка
+  - 'DOMAIN-SUFFIX,podrygka.ru,DIRECT'
+  
+  # ============================================
+  # ПРОДУКТЫ
+  # ============================================
+  
+  # Перекрёсток
+  - 'DOMAIN-SUFFIX,perekrestok.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,5ka.ru,DIRECT'
+  
+  # Пятёрочка
+  - 'DOMAIN-SUFFIX,5ka.ru,DIRECT'
+  
+  # Магнит
+  - 'DOMAIN-SUFFIX,magnit.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,magnit-info.ru,DIRECT'
+  
+  # Лента
+  - 'DOMAIN-SUFFIX,lenta.com,DIRECT'
+  
+  # Ашан
+  - 'DOMAIN-SUFFIX,auchan.ru,DIRECT'
+  
+  # О'КЕЙ
+  - 'DOMAIN-SUFFIX,okmarket.ru,DIRECT'
+  
+  # Вкусвилл (уже в списке доставки еды)
+  
+  # Метро
+  - 'DOMAIN-SUFFIX,metro-cc.ru,DIRECT'
+  
+  # ============================================
+  # ДЕТСКИЕ ТОВАРЫ
+  # ============================================
+  
+  # Детский мир
+  - 'DOMAIN-SUFFIX,detmir.ru,DIRECT'
+  
+  # Дочки-Сыночки
+  - 'DOMAIN-SUFFIX,dochkisinochki.ru,DIRECT'
+  
+  # Mothercare
+  - 'DOMAIN-SUFFIX,mothercare.ru,DIRECT'
+  
+  # ============================================
+  # СПОРТ И ФИТНЕС
+  # ============================================
+  
+  # Спортмастер
+  - 'DOMAIN-SUFFIX,sportmaster.ru,DIRECT'
+  
+  # Декатлон
+  - 'DOMAIN-SUFFIX,decathlon.ru,DIRECT'
+  
+  # Триал-Спорт
+  - 'DOMAIN-SUFFIX,trialspb.ru,DIRECT'
+  
+  # ============================================
+  # ХОББИ И ТВОРЧЕСТВО
+  # ============================================
+  
+  # Леонардо
+  - 'DOMAIN-SUFFIX,leonardo.ru,DIRECT'
+  
+  # ============================================
+  # ЗООТОВАРЫ
+  # ============================================
+  
+  # Четыре Лапы
+  - 'DOMAIN-SUFFIX,4lapy.ru,DIRECT'
+  
+  # Бетховен
+  - 'DOMAIN-SUFFIX,beethoven.ru,DIRECT'
+  
+  # ============================================
+  # РАЗНОЕ
+  # ============================================
+  
+  # Habr
+  - 'DOMAIN-SUFFIX,habr.com,DIRECT'
+  - 'DOMAIN-SUFFIX,habrahabr.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,habrastorage.org,DIRECT'
+  
+  # VC.ru
+  - 'DOMAIN-SUFFIX,vc.ru,DIRECT'
+  
+  # Pikabu
+  - 'DOMAIN-SUFFIX,pikabu.ru,DIRECT'
+  
+  # DTF
+  - 'DOMAIN-SUFFIX,dtf.ru,DIRECT'
+  
+  # TJournal
+  - 'DOMAIN-SUFFIX,tjournal.ru,DIRECT'
+  
+  # Livejournal
+  - 'DOMAIN-SUFFIX,livejournal.com,DIRECT'
+  - 'DOMAIN-SUFFIX,livejournal.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,lj.ru,DIRECT'
+  
+  # Memepedia
+  - 'DOMAIN-SUFFIX,memepedia.ru,DIRECT'
+  
+  # Fishki.net
+  - 'DOMAIN-SUFFIX,fishki.net,DIRECT'
+  
+  # Lurkmore
+  - 'DOMAIN-SUFFIX,lurkmore.to,DIRECT'
+  
+  # Анонс
+  - 'DOMAIN-SUFFIX,anonce.pro,DIRECT'
+  
+  # Яплакалъ
+  - 'DOMAIN-SUFFIX,yaplakal.com,DIRECT'
+  
+  # Dirty.ru
+  - 'DOMAIN-SUFFIX,dirty.ru,DIRECT'
+  
+  # Onliner (Беларусь)
+  - 'DOMAIN-SUFFIX,onliner.by,DIRECT'
+  
+  # Dev.by (Беларусь)
+  - 'DOMAIN-SUFFIX,dev.by,DIRECT'
+  
+  # ============================================
+  # IT И РАЗРАБОТКА
+  # ============================================
+  
+  # GitVerse
+  - 'DOMAIN-SUFFIX,gitverse.ru,DIRECT'
+  
+  # Selectel
+  - 'DOMAIN-SUFFIX,selectel.ru,DIRECT'
+  
+  # Timeweb
+  - 'DOMAIN-SUFFIX,timeweb.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,timeweb.com,DIRECT'
+  
+  # Reg.ru
+  - 'DOMAIN-SUFFIX,reg.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,reg.com,DIRECT'
+  
+  # Nic.ru
+  - 'DOMAIN-SUFFIX,nic.ru,DIRECT'
+  
+  # Beget
+  - 'DOMAIN-SUFFIX,beget.com,DIRECT'
+  - 'DOMAIN-SUFFIX,beget.ru,DIRECT'
+  
+  # ============================================
+  # ГОСУДАРСТВЕННЫЕ САЙТЫ .GOV.RU
+  # ============================================
+  
+  - 'DOMAIN-SUFFIX,gov.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,kremlin.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,government.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,duma.gov.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,mos.ru,DIRECT'
+  - 'DOMAIN-SUFFIX,spb.ru,DIRECT'
+  
+  # ============================================
+  # РОССИЙСКИЕ IP АДРЕСА
+  # ============================================
+  
+  - 'GEOIP,RU,DIRECT'
+  
+  # ============================================
+  # ИГРЫ - ПРОЦЕССЫ (WINDOWS)
+  # ============================================
+  
+  # Steam
+  - 'PROCESS-NAME,steam.exe,DIRECT'
+  - 'PROCESS-NAME,steamwebhelper.exe,DIRECT'
+  - 'PROCESS-NAME,steamservice.exe,DIRECT'
+  - 'PROCESS-NAME,cs2.exe,DIRECT'
+  - 'PROCESS-NAME,csgo.exe,DIRECT'
+  - 'PROCESS-NAME,dota2.exe,DIRECT'
+  - 'PROCESS-NAME,hl2.exe,DIRECT'
+  - 'DOMAIN-SUFFIX,steampowered.com,DIRECT'
+  - 'DOMAIN-SUFFIX,steamcommunity.com,DIRECT'
+  - 'DOMAIN-SUFFIX,steamstatic.com,DIRECT'
+  - 'DOMAIN-SUFFIX,steamcontent.com,DIRECT'
+  
+  # PUBG
+  - 'PROCESS-NAME,TslGame.exe,DIRECT'
+  - 'PROCESS-NAME,TslGame_BE.exe,DIRECT'
+  - 'PROCESS-NAME,BEService.exe,DIRECT'
+  
+  # League of Legends
+  - 'PROCESS-NAME,LeagueClient.exe,DIRECT'
+  - 'PROCESS-NAME,LeagueClientUx.exe,DIRECT'
+  - 'PROCESS-NAME,LeagueClientUxRender.exe,DIRECT'
+  
+  # Valorant
+  - 'PROCESS-NAME,VALORANT-Win64-Shipping.exe,DIRECT'
+  - 'PROCESS-NAME,RiotClientServices.exe,DIRECT'
+  - 'PROCESS-NAME,VGC.exe,DIRECT'
+  - 'PROCESS-NAME,vgtray.exe,DIRECT'
+  
+  # Epic Games / Fortnite
+  - 'PROCESS-NAME,EpicGamesLauncher.exe,DIRECT'
+  - 'PROCESS-NAME,FortniteLauncher.exe,DIRECT'
+  - 'PROCESS-NAME,FortniteClient-Win64-Shipping.exe,DIRECT'
+  - 'PROCESS-NAME,FortniteClient-Win64-Shipping_BE.exe,DIRECT'
+  - 'PROCESS-NAME,FortniteClient-Win64-Shipping_EAC.exe,DIRECT'
+  
+  # Battle.net / Blizzard
+  - 'PROCESS-NAME,Battle.net.exe,DIRECT'
+  - 'PROCESS-NAME,Agent.exe,DIRECT'
+  - 'PROCESS-NAME,Overwatch.exe,DIRECT'
+  - 'PROCESS-NAME,Wow.exe,DIRECT'
+  - 'PROCESS-NAME,Hearthstone.exe,DIRECT'
+  - 'PROCESS-NAME,DiabloIV.exe,DIRECT'
+  
+  # Rockstar Games
+  - 'PROCESS-NAME,Launcher.exe,DIRECT'
+  - 'PROCESS-NAME,GTAV.exe,DIRECT'
+  - 'PROCESS-NAME,RDR2.exe,DIRECT'
+  
+  # Ubisoft
+  - 'PROCESS-NAME,upc.exe,DIRECT'
+  - 'PROCESS-NAME,UbisoftConnect.exe,DIRECT'
+  - 'PROCESS-NAME,RainbowSix.exe,DIRECT'
+  
+  # Minecraft
+  - 'PROCESS-NAME,Minecraft.exe,DIRECT'
+  - 'PROCESS-NAME,javaw.exe,DIRECT'
+  
+  # Other games
+  - 'PROCESS-NAME,Endfield.exe,DIRECT'
+  - 'PROCESS-NAME,zksvc.exe,DIRECT'
+  - 'PROCESS-NAME,osu!.exe,DIRECT'
+  
+  # ============================================
+  # IP ДИАПАЗОНЫ ДЛЯ ИГР
+  # ============================================
+  
+  - 'IP-CIDR,190.217.32.0/22,DIRECT'
+  - 'IP-CIDR,146.66.152.0/21,DIRECT'
+  - 'IP-CIDR,103.10.124.0/23,DIRECT'
+  - 'IP-CIDR,208.64.200.0/22,DIRECT'
+  - 'IP-CIDR,162.254.192.0/18,DIRECT'
+
+append: []
+delete: []
